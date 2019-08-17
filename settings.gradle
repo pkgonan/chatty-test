@@ -1,2 +1,4 @@
 rootProject.name = 'chatty'
+include 'chatty-core'
+include 'chatty-service'
 
