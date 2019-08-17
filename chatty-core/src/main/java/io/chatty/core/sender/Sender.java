@@ -1,7 +1,9 @@
 package io.chatty.core.sender;
 
+import io.chatty.core.message.Message;
+
 public interface Sender {
 
-    <T> void send(T data);
+    void send(Message message);
 
 }

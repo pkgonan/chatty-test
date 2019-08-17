@@ -1,7 +1,9 @@
 package io.chatty.core.receiver;
 
+import io.chatty.core.message.Message;
+
 public interface Receiver {
 
-    <T> void receive(T data);
+    void receive(Message message);
 
 }
