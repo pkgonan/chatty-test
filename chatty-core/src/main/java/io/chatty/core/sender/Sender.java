@@ -1,9 +1,9 @@
 package io.chatty.core.sender;
 
-import io.chatty.core.message.Message;
+import reactor.core.publisher.Mono;
 
 public interface Sender {
 
-    void send(Message message);
+    <T> Mono<Void> send(T data);
 
 }

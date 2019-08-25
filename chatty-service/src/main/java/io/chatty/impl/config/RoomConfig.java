@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Configuration
-public class MapConfig {
+public class RoomConfig {
 
     @Bean
     public Map<Long, Room> roomMap() {

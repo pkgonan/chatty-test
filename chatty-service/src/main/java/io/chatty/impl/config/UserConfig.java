@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 @Configuration
-public class QueueConfig {
+public class UserConfig {
 
     @Bean
     public Queue<User> userQueue() {

@@ -17,4 +17,8 @@ public class RandomChatService {
     public void join(final User user) {
         userQueue.add(user);
     }
+
+    public long users() {
+        return userQueue.size();
+    }
 }
